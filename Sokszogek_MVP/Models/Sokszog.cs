@@ -4,20 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace sokszogek_mvp.model
+namespace Sokszogek_MVP.Models
 {
     public abstract class Sokszog
     {
         public double oldalA { get; set; }
         public double oldalB { get; set; }
 
-        public abstract double kerulet();
-        public abstract double terulet();
+        public abstract double Kerulet();
+        public abstract double Terulet();
 
-        public Sokszog(double a, double b)
+        public Sokszog(double A, double B)
         {
-            oldalA = a;
-            oldalB = b;
+            oldalA = A;
+            oldalB = B;
         }
     }
 }

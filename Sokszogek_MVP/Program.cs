@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace sokszogek_mvp
+namespace Sokszogek_MVP
 {
     static class Program
     {

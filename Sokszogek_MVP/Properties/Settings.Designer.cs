@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace sokszogek_mvp.Properties
+namespace Sokszogek_MVP.Properties
 {
 
 

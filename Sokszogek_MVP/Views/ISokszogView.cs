@@ -4,14 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace sokszogek_mvp.view
+namespace Sokszogek_MVP.Views
 {
-    public interface iSokszog
+    interface ISokszogView
     {
+
         string oldalA { get; set; }
         string oldalB { get; set; }
         string Kerulet { get; set; }
         string Terulet { get; set; }
-        IList<string>SokszogList { get; set; }
+        IList<string> SokszogList { get; set; }
     }
 }

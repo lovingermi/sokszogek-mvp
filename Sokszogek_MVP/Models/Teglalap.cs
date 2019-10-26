@@ -4,22 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace sokszogek_mvp.model
+namespace Sokszogek_MVP.Models
 {
     public class Teglalap : Sokszog
     {
-
-        public Teglalap(double A, double B):base(A,B)
+        // CTOR + TAB + TAB
+        public Teglalap(double A, double B): base(A, B)
         {
 
-        } 
-
-        public override double kerulet()
-        {
-            return (oldalA + oldalB) * 2;
         }
 
-        public override double terulet()
+        public override double Kerulet()
+        {
+            return 2 * (oldalA + oldalB);
+        }
+
+        public override double Terulet()
         {
             return oldalA * oldalB;
         }
